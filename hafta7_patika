@@ -1,0 +1,25 @@
+
+
+
+//Ödev: Bir C programı oluşturun ve kullanıcıdan bir kelime veya cümle girmesini isteyin.
+// Ardından, programınızda bulunan strlen fonksiyonunu kullanarak girilen kelimenin veya cümlenin uzunluğunu ekrana yazdırın.
+#include <stdio.h>
+#include <cs50.h>
+#include<string.h>
+
+
+
+int main(void)
+{
+    string str= get_string("input: ");
+    printf("output: ");
+    int l = strlen(str);
+   // printf("%i\n", l);
+    for (int i=0; i<l; i++)
+    {
+        printf("%c\n", str[i]);
+    }
+    printf("%i\n", l);
+}
+
+
