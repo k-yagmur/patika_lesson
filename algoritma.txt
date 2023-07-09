@@ -1,0 +1,18 @@
+Bir dizi içindeki en büyük sayıyı bulan bir algoritma yazınız.
+
+
+1-başla
+2-dizinin ilk elemanından saymaya başla 
+3-ilk elemanı aklında tut ve ikinci elemanla karşılaştır 
+4- eger n1 > n2 ise n2yi en büyük değer olarak hafızanda tut değilse 5.adıma geç 
+5- eger n1< n2 ise n1i en büyük değer olarak hafızanda tut 
+6- bu işlemi eleman sayısı kadar tekrar et 
+7- ilk elemandan son elemana kadar karlıştırarak git ve en büyüğünü hafızında tut
+8- en büyük değeri yazdır 
+9-bitir 
+
+Ödev2:Bir bağlı listedeki eleman sayısını bulan bir algoritma yazınız.
+
+
+
+
